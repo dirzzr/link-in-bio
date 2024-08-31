@@ -116,11 +116,11 @@ ul > li > details > summary {
 }
 
 ul > li > details > summary:hover {
-  background-color: #fff5;
+  background-color: #fffa;
 }
 
 ul > li > details[open] {
-  background-color: #fff8;
+  background-color: #fffa;
   border-radius: 10em;
 }
 
