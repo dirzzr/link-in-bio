@@ -98,3 +98,47 @@ a {
   color: black;
   text-decoration: none;
 }
+ul > li > details {
+  background-color: #fffa;
+  border-radius: 10em;
+  margin: 1.4em 0;
+  box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+ul > li > details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 1em;
+  cursor: pointer;
+  list-style: none;
+}
+
+ul > li > details > summary:hover {
+  background-color: #fff5;
+}
+
+ul > li > details[open] {
+  background-color: #fff8;
+  border-radius: 10em;
+}
+
+.dropdown-content {
+  padding: 1em;
+  text-align: center;
+  background-color: #fffa;
+  border-radius: 10px;
+}
+
+.dropdown-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.dropdown-content p {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #333;
+}
