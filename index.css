@@ -112,6 +112,7 @@ a {
 .dropdown-button {
   background-color: #ffffff;
   border: none;
+  width: 100%;
   padding: 1em;
   margin: 0 auto;
   display: flex;
@@ -130,6 +131,10 @@ a {
 
 .dropdown-menu {
   position: absolute;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
   top: 100%;
   left: 50%;
   right: 50%;
