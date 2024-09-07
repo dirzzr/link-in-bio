@@ -111,8 +111,8 @@ a {
 
 .dropdown-button {
   background-color: #ffffff;
-  border: none;
   width: 100%;
+  border: none;
   padding: 1em;
   margin: 0 auto;
   display: flex;
@@ -133,19 +133,20 @@ a {
   position: absolute;
   width: 100%;
   min-width: 100%;
-  max-width: 100%;
-  word-wrap: break-word;
+  max-width: 100%; 
   top: 100%;
-  left: 50%;
-  right: 50%;
+  left: 0;
   background-color: #ffffff;
   border: 1px solid #ddd;
   padding: 1em;
   display: none;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  z-index: 1;
+  word-wrap: break-word;
   border-radius: 10em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 .dropdown-menu li {
