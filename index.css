@@ -123,6 +123,7 @@ a {
   cursor: pointer;
   border-radius: 10em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+  margin-bottom: 10px;
 }
 
 .dropdown-button:hover {
