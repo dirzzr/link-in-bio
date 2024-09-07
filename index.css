@@ -131,17 +131,13 @@ a {
 
 .dropdown-menu {
   position: absolute;
-  width: 100%;
-  min-width: 100%;
-  max-width: 100%; 
   top: 100%;
-  left: 0;
+  margin-top: 10px;
   background-color: #ffffff;
   border: 1px solid #ddd;
   padding: 1em;
   display: none;
   z-index: 1;
-  word-wrap: break-word;
   border-radius: 10em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
