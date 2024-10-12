@@ -130,16 +130,13 @@ a {
 }
 
 .dropdown-menu {
-.dropdown-button:hover + .dropdown-menu {
-  display: block;
   position: absolute;
-  left: 0;
-  z-index: 1;
   top: 100%;
   margin-top: 10px;
   background-color: #ffffff;
   border: 1px solid #ddd;
   padding: 1em;
+  display: none;
   z-index: 1;
   border-radius: 10em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
@@ -165,4 +162,3 @@ a {
 .dropdown:hover .dropdown-menu {
   display: block;
 } 
-}
