@@ -74,7 +74,6 @@ ul {
   margin: 0 auto;
   padding: 2em;
   max-width: 480px;
-  position: relative; /* add this */
 }
 
 ul > li {
@@ -163,6 +162,3 @@ a {
 .dropdown:hover .dropdown-menu {
   display: block;
 } 
-.dropdown li {
-  overflow: hidden; /* add this */
-}
