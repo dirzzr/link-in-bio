@@ -141,6 +141,9 @@ a {
   border-radius: 10em;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
   color: black;
+  max-width: 200px; /* tambahkan batasan lebar */
+  padding: 1em 2em; /* tambahkan padding yang cukup */
+  overflow: hidden; /* tambahkan properti overflow */
 }
 .dropdown:hover .dropdown-menu {
   display: block;
